@@ -7,22 +7,22 @@ export const navItems = [
     icon: <LayoutDashboard className="h-4 w-4" />,
   },
   {
-    title: "Sản phẩm",
+    title: "Products",
     href: "/products",
     icon: <Package className="h-4 w-4" />,
   },
   {
-    title: "Đơn hàng",
+    title: "Orders",
     href: "/orders",
     icon: <ShoppingCart className="h-4 w-4" />,
   },
   {
-    title: "Khách hàng",
+    title: "Customers",
     href: "/users",
     icon: <Users className="h-4 w-4" />,
   },
   {
-    title: "Cài đặt",
+    title: "Settings",
     href: "/settings",
     icon: <Settings className="h-4 w-4" />,
   },

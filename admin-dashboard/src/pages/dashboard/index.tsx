@@ -13,27 +13,27 @@ export default function DashboardPage() {
 
       <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-4">
         <StatsCard 
-          title="Tổng Doanh Thu" 
+          title="Total Revenue" 
           value="$45,231.89" 
-          description="+20.1% so với tháng trước" 
+          description="+20.1% from last month" 
           icon={DollarSign} 
         />
         <StatsCard 
-          title="Đăng Ký Mới" 
+          title="New Subscriptions" 
           value="+2350" 
-          description="+180.1% so với tháng trước" 
+          description="+180.1% from last month" 
           icon={Users} 
         />
         <StatsCard 
-          title="Đơn Hàng" 
+          title="Sales" 
           value="+12,234" 
-          description="+19% so với tháng trước" 
+          description="+19% from last month" 
           icon={CreditCard} 
         />
         <StatsCard 
-          title="Đang Hoạt Động" 
+          title="Active Now" 
           value="+573" 
-          description="+201 kể từ giờ trước" 
+          description="+201 since last hour" 
           icon={Activity} 
         />
       </div>
@@ -41,7 +41,7 @@ export default function DashboardPage() {
       <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-7">
         <Card className="col-span-4">
           <CardHeader>
-            <CardTitle>Tổng Quan</CardTitle>
+            <CardTitle>Overview</CardTitle>
           </CardHeader>
           <CardContent className="pl-2">
             <OverviewChart />
@@ -50,9 +50,9 @@ export default function DashboardPage() {
 
         <Card className="col-span-3">
           <CardHeader>
-            <CardTitle>Giao Dịch Gần Đây</CardTitle>
+            <CardTitle>Recent Sales</CardTitle>
             <p className="text-sm text-muted-foreground">
-              Bạn có 265 đơn hàng trong tháng này.
+              You made 265 sales this month.
             </p>
           </CardHeader>
           <CardContent>

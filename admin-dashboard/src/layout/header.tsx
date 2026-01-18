@@ -9,7 +9,7 @@ export default function Header() {
       <MobileSidebar />
 
       <div className="w-full flex-1">
-        {/* Chỗ này để thanh Search sau này */}
+        {/* Search bar placeholder */}
       </div>
 
       <Button variant="ghost" size="icon" className="rounded-full">
